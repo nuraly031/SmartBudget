@@ -1,0 +1,12 @@
+version: '0.1'
+
+services:
+  postgress:
+    image: postgres:16
+    container_name: postgres_for_budget
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Aa2131*!
+      POSTGRES_DB: budget_main_db
