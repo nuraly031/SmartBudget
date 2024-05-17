@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Budget</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Budget</h1>
+        <div class="add-asset">
+            <input type="text" id="assetName" placeholder="Name">
+            <input type="number" id="assetValue" placeholder="Sum">
+            <button id="addAssetButton">Add</button>
+        </div>
+        <ul id="assetList"></ul>
+        <div class="total">
+            Total sum: <span id="totalValue">$0</span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
